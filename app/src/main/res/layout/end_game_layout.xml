@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="HIGH RIGHT"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/textview_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="00"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="100sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="HIGH SCORE"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/textview_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="0000"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="100sp" />
+
+        <Button
+            android:id="@+id/button_play_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Play Again"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
